@@ -120,6 +120,7 @@ nav{
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    border: none;
 }
 .hire-btn button{
     font-size: 20px;
@@ -130,9 +131,20 @@ nav{
 }
 .picture{
     display: flex;
+    flex-direction: column;
     width: 100%;
-
+    background-color: var(--header-blue);
 }
+.picture p{
+    font-size: 11px;
+    margin-right: 20px;
+    text-align: right;
+    color: white;
+}
+.picture a{
+    color: white;
+}
+
 /* .top{
     display: flex;
     justify-content: center;
@@ -166,5 +178,12 @@ nav{
 
 footer{
     background-color: 	#aaaaaa;
-    text-align: center;
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer p{
+    margin-right: 20px;
 }
